@@ -1,9 +1,81 @@
 :root {
-    --dark: #374151;
+    --back-green: #4b754a;
     --darker: #1f2937;
     --darkest: #111827;
-    --gray: #6b7280;
+    --h1: #1d291d;
     --light: #eee;
-    --green: #d6e1a8;
-    --dark-green: #53650a;
+    --green: #98fb98;
+    --light-green: #cffecc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'lora', 'sans-serif';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--back-green);
+    color: #fff;
+}
+
+header {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--h1) ;
+    margin-bottom: 1rem;
+}
+
+#stuff-form {
+    display: flex;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#stuff-input {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--gray);
+    font-size: 1.25rem;
+}
+
+#stuff-input::placeholder {
+    color: var(--light);
+}
+
+#stuff-submit {
+    color: var(--dark-green);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--green), var(--light-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#stuff-submit:hover {
+    opacity: 0.8;
+}
+
+#stuff-submit:active {
+    opacity: 0.6;
 }
