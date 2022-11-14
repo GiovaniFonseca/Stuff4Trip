@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/734e8f7afc.js" crossorigin="anonymous"></script>
+    
+
+    <title>Stuff4Trip</title>
+</head>
+<body>
+    <!--Adding the header-->
+    <header>
+        <h1>Stuff for your Trip</h1>
+        <form id="stuff-form">
+            <input type="text" id="stuff-input" placeholder="What to bring for you trip?">
+            <input type="submit" id="stuff-submit" value="Add stuff">
+        </form>
+    </header>
+    <!--adding the main-->
+    <main>
+        <section class="stuff-list">
+            <h2>Stuff</h2>
+
+            <div id="stuff-trip">
+                <div class="stuff">
+                    <div class="content">
+                        <div class="circle-button">
+                            <i class="fa-regular fa-circle"></i>
+                            <input type="text" class="text" value="My new stuff to bring" readonly>
+                        </div>
+                       <!--<input type="text" class="text" value="My new stuff to bring" readonly> -->
+                        
+                    </div>
+                    <div class="content">
+                        <div class="circle-check">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <input type="text" class="text" value="My new stuff to bring" readonly>
+                        </div>
+                       <!--<input type="text" class="text" value="My new stuff to bring" readonly> -->
+                        
+                    </div>
+                    
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>
