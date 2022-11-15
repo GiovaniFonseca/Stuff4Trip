@@ -72,6 +72,14 @@ window.addEventListener('load', () => {
         }
        })
 
+       /**
+        * creating an Event and If statement to the Delete button
+        */
+
+       deleteElement.addEventListener('click', () => {
+            stuffElement.removeChild(stuff_el)
+       })
+
     })
 })
 
