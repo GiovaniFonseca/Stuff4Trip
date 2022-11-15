@@ -1,3 +1,6 @@
+
+/* defining the color to the to do list */
+
 :root {
     --back-dark-blue: #0D1321;
     --light-blue: #BFD7EA;
@@ -15,6 +18,8 @@
     font-family: 'lora', 'sans-serif';
 }
 
+/* styling the body section */
+
 body {
     display: flex;
     flex-direction: column;
@@ -22,6 +27,8 @@ body {
     background: var(--back-dark-blue);
     color: #fff;
 }
+
+/* styling the header and h1 */
 
 header {
     padding: 2rem 1rem;
@@ -48,6 +55,8 @@ input, button {
     background: none;
 }
 
+/* styling the input section  and text */
+
 #stuff-input {
     flex: 1 1 0%;
     background-color: var(--dark);
@@ -61,6 +70,8 @@ input, button {
 #stuff-input::placeholder {
     color: var(--light-blue);
 }
+
+/*Styling the submit button and adding a linear gradient color*/
 
 #stuff-submit {
     color: var(--back-dark-blue);
@@ -80,6 +91,8 @@ input, button {
 #stuff-submit:active {
     opacity: 0.6;
 }
+
+/*Styling the main and list */
 
 main {
     flex: 1 1 0%;
@@ -120,6 +133,8 @@ main {
     color: var(--dark-pink);
 }
 
+/*add styling to actions section*/
+
 #stuff-trip .stuff .actions {
     display: flex;
     margin: 0 -0.5rem;
@@ -141,6 +156,8 @@ main {
 .stuff .actions button:active {
     opacity: 0.6;
 }
+
+/*add styling to the edit and delete button*/
 
 .stuff .actions .edit {
     background-image: linear-gradient(to right, var(--dark-pink), var(--light-pink));
