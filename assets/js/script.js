@@ -1,6 +1,7 @@
 
 /**
- * Getting the elements from the html
+ * Creating an event and function
+ * Getting the elements from the html, putting them in variable
  */
 
 window.addEventListener('load', () => {
@@ -9,30 +10,30 @@ window.addEventListener('load', () => {
     const stuffElement = document.getElementById('stuff-trip');
 
     form.addEventListener('submit', (e) => {
-        e.preventDefault();
+        e.preventDefault(); // prevent the website from refreshing the page
 
        const stuff = input.value;
        if (!stuff) {
-            alert('please fill out the stuff');
-            return;
+            alert('please fill out the stuff'); //creating an if statement for the user to fill in the form and not leave it blank
+            return; 
        }
        
        /**
         * creating elements to the page 
         */
        
-       const stuff_el = document.createElement('div');
-       stuff_el.classList.add('stuff');
+       const stuff_el = document.createElement('div'); // creating a div element 
+       stuff_el.classList.add('stuff'); // adding a class to the div
 
-       const stuff_content = document.createElement('div');
-       stuff_content.classList.add('content');
+       const stuff_content = document.createElement('div'); // creating a div element 
+       stuff_content.classList.add('content'); // adding a class to the div
 
-       stuff_el.appendChild(stuff_content);
+       stuff_el.appendChild(stuff_content); // appending stuff_content to the stuff_el
 
-       const stuff_input = document.createElement('input');
-       stuff_input.classList.add('text');
-       stuff_input.type = 'text';
-       stuff_input.value = stuff;
+       const stuff_input = document.createElement('input'); // creating an input element
+       stuff_input.classList.add('text'); // defining the class as text 
+       stuff_input.type = 'text'; // difining the type as text
+       stuff_input.value = stuff; // 
        stuff_input.setAttribute('readonly', 'readonly');
 
        stuff_content.appendChild(stuff_input);
@@ -58,28 +59,28 @@ window.addEventListener('load', () => {
        input.value = '';
 
        /**
-        * creating an Event and If statement to the edit button 
+        * creating an Event and fuction to the edit button 
         */
 
        editElement.addEventListener('click', () => {
         if (editElement.innerText.toLowerCase() == 'edit') {
             stuff_input.removeAttribute('readonly');
             stuff_input.focus();
-            editElement.innerText = 'Save'
+            editElement.innerText = 'Save';
         } else {
             stuff_input.setAttribute('readonly', 'readonly');
             editElement.innerText = 'Edit';
         }
-       })
+       });
 
        /**
-        * creating an Event and If statement to the Delete button
+        * creating an Event to the Delete button
         */
 
        deleteElement.addEventListener('click', () => {
-            stuffElement.removeChild(stuff_el)
-       })
+            stuffElement.removeChild(stuff_el);
+       });
 
-    })
-})
+    });
+});
 
