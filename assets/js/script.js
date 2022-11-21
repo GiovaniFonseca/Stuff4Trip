@@ -31,32 +31,32 @@ window.addEventListener('load', () => {
        stuff_el.appendChild(stuff_content); // appending stuff_content to the stuff_el
 
        const stuff_input = document.createElement('input'); // creating an input element
-       stuff_input.classList.add('text'); // defining the class as text 
-       stuff_input.type = 'text'; // difining the type as text
-       stuff_input.value = stuff; // 
-       stuff_input.setAttribute('readonly', 'readonly');
+       stuff_input.classList.add('text'); // adding the class of text
+       stuff_input.type = 'text'; // defining the type as text
+       stuff_input.value = stuff; // defining the input.value is equal to the stuff we write in the web 
+       stuff_input.setAttribute('readonly', 'readonly'); // setting as readonly, so the user cannot edit
 
-       stuff_content.appendChild(stuff_input);
+       stuff_content.appendChild(stuff_input); // appending stuff_input to the stuff_content
 
-       const actionsElement = document.createElement('div');
-       actionsElement.classList.add('actions');
+       const actionsElement = document.createElement('div');  // creating a div element 
+       actionsElement.classList.add('actions'); // adding a class to the div
 
-       const editElement = document.createElement('button');
-       editElement.classList.add('edit');
-       editElement.innerHTML = 'Edit';
+       const editElement = document.createElement('button'); // creating the button element
+       editElement.classList.add('edit'); // addin the class of edit 
+       editElement.innerHTML = 'Edit'; // set the innerHTML as Edit 
 
-       const deleteElement = document.createElement('button');
-       deleteElement.classList.add('delete');
-       deleteElement.innerHTML = 'Delete';
+       const deleteElement = document.createElement('button'); // creating the button element
+       deleteElement.classList.add('delete'); // addin the class of edit 
+       deleteElement.innerHTML = 'Delete'; // set the innerHTML as Delete
 
-       actionsElement.appendChild(editElement);
-       actionsElement.appendChild(deleteElement);
+       actionsElement.appendChild(editElement); // appending editElement to the actionsElement
+       actionsElement.appendChild(deleteElement); // appending deleteElement to the actionsElement
 
-       stuff_el.appendChild(actionsElement);
+       stuff_el.appendChild(actionsElement); // // appending actionsElement to the stuff_el
 
-       stuffElement.appendChild(stuff_el);
+       stuffElement.appendChild(stuff_el); // // appending stuff_el to the stuffElement
 
-       input.value = '';
+       input.value = ''; // settiing the input.value igual to "", to prevent any issue 
 
        /**
         * creating an Event and fuction to the edit button 

@@ -1,108 +1,178 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Stuff4Trip**
 
-Welcome Giov3ss,
+Stuff4Trip It's a site where you can put your things that you want to take with you on your trip and not forget anything, saving time, organizing your things and making a safe trip with all your stuff.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<img width="972" alt="image" src="https://user-images.githubusercontent.com/112728772/195933029-c7243ea0-5774-4709-b173-1efe8093dfde.png">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Live Site 
+[Dev's-Connect](https://giov3ss.github.io/Devs-Connect/)
 
-## Gitpod Reminders
+## Repository
+[https://github.com/Giov3ss/Devs-Connect](https://github.com/Giov3ss/Devs-Connect)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- - -
 
-`python3 -m http.server`
+## **Table of Contents**
 
-A blue button should appear to click: _Make Public_,
+1. [UX Development](#ux-development)
+    * [Project Goal](#project-goal)
 
-Another blue button should appear to click: _Open Browser_.
+    * [User Stories](#user-stories)
+        * [Target Audience](#target-audience)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * [Design](#design)
+        * [Colour Scheme](#colour-scheme)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+        * [Site Structure](#site-structure)
+        * [Wireframes](#wireframes)
+      
+2. [Features](#features)  
+    * [Header](#header)
+    * [Footer](#footer-section)
+    * [Favicon](#Favicon)
+        
+3. [Technology Used](#technology-used)  
+    * [Language Used](#languages-used)
+    * [Tools and Libraries](#tools-and-libraries)
 
-A blue button should appear to click: _Make Public_,
+4. [Testing](#testing)
 
-Another blue button should appear to click: _Open Browser_.
+5. [Deployment](#deployment)  
+  
+6. [Credits](#credits)
+    * [Contents](#contents)
+    * [Media](#media)  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- - -
 
-To log into the Heroku toolbelt CLI:
+# **Table of Contents**
+## UX Development
+### Project Goal 
+Show my competence building a responsive website using HTML, CSS and JavaScript.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The site should disclose and help everyone who wants to have a safe trip, knowing what you are carrying in your backpack and providing a peaceful trip. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## User Stories
+### Target Audience 
+* Travellers.
 
-------
+## Design
+### Colour Scheme 
 
-## Release History
+The colours scheme was inspired by the Hero Image, with different shades of Dyke Brown and Saddle Brown.
+<img width="1398" alt="image" src="https://user-images.githubusercontent.com/112728772/195933184-342a6293-db43-4445-863f-68557b31ce38.png">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The colour was design by [Coolors] (https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) to generate some color code as inspiration for the website. 
+* The chosen colors bring clarity to the website, making a contrast with different shades of brown, which is compatible with the main image, while still maintaining a high standard of design and reflecting even more on the main focus of the site.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Typography
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Google fonts was used:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Righteous: Was used for the headings of the site.
+* It is a font that matches the purpose of the site, the font format makes the site more interesting and brings a more technological look.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Quicksand: Was used for the content of the site.
+* It has a natural design that brings the user clean reading.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Imagery
+The photos were obtained from the free provider: [Pexels] (https://www.pexels.com/photo/group-of-people-watching-on-laptop-1595385/).
+* The image takes us to a new world, where more women are inserted in technological fields, also more inclusive and friendly, which shows that Technology is for everyone.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Site Structure
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Stuff4Trip is a stactic website, made with HTML, CSS and JavaScript.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Wireframes 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#### Phone 
+<img width="227" alt="image" src="https://user-images.githubusercontent.com/112728772/195933405-1b471eb2-ed1c-4651-be08-b7e864610981.png">
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### Desktop
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/112728772/195933485-c31a0172-3113-44c5-86fc-2fd8212168b9.png">
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Tablet
+<img width="302" alt="image" src="https://user-images.githubusercontent.com/112728772/195933791-12c65731-8a07-4eec-9cd9-712034e0c714.png">
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Header
+- The header contain the hero-image of the site and a small box on the right inviting the user to join our club.
+<img width="1402" alt="image" src="https://user-images.githubusercontent.com/112728772/195934294-f3091332-d084-43b4-bbc0-1eb45d417c58.png">
 
-------
+### Favicon
+- The site has a Favicon, both the main page, the thank you page and the 404 page also have it, since the site is about technology I chose a Computer Icon.
+<img width="123" alt="image" src="https://user-images.githubusercontent.com/112728772/196803733-62613e4a-9b5d-4162-894a-fa141209690f.png">
 
-## FAQ about the uptime script
+## Technology Used
 
-**Why have you added this script?**
+### Languages Used 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- HTML, CSS  and JavaScript were used to create this website.
 
-**How will this affect me?**
+### Tools and libraries
+- [coolors.co](https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) - The color scheme that was used on the site.
+- [Font Awesome](https://fontawesome.com/) - Various icons used throughout the site, using version 5.
+- [Google Fonts](https://fonts.google.com/) - Both fonts were used by Google Fonts.
+- [Chrome Devtools](https://developer.chrome.com/docs/devtools/) - Used extensively to experiment with grid, flexbox and general responsiveness. 
+- [Gitpod](https://www.gitpod.io/) - Used to create and host the website.
+- [Github](https://github.com/) - Used to deploy the website.
+- [Am I Responsive](https://ui.dev/amiresponsive) - Used to creat an image displaying the homepage on multiple devices.
+- [Favicon](https://favicon.io/) - Used to create the Icon for the website.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Deployment 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The site was deployed to Github pages.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Deploy to GitHub Pages
 
-**So….?**
+1. Navigate to the settings tab in the GitHub repository
+<img width="1422" alt="image" src="https://user-images.githubusercontent.com/112728772/195935516-92364253-e0eb-49b0-a073-bc3697b535a0.png">
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+2. Once in settings, navigate to the pages tab on the left of the page
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/112728772/195935737-4a44fd00-d911-4984-ac22-5cd16f11f74a.png">
+ 
+3. Under source, select branch ‘main’ and then click ‘save’
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/112728772/195936079-36d95a64-8671-4e5b-9335-6affa9f830ef.png">
 
-**Can I opt out?**
+4. Page will not automatically refresh and show a detailed ribbon display to indicate deployment
+<img width="785" alt="image" src="https://user-images.githubusercontent.com/112728772/195937015-50ad61fc-31bd-4e8a-a0bf-8144f8a21bae.png">
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### To Fork the Repository 
 
-**Anything more?**
+To make a copy or ‘fork’ the repository - 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+1. Log into GitHub and locate repository
+2. On the right hand side of the page select the ‘fork’ option to create and copy of the original
 
----
+### To create a Local Clone 
 
-Happy coding!
+1. under the repository name, click on the ‘code’ tab
+2. in the clone box, HTTPS tab, click on the clipboard icon 
+3. in your IED open GitBash
+4. Changed the current working directory to the location you want the cloned directory to be made
+5. Type ‘git clone’ and then paste the URL copied from GitHub
+6. press enter and the local clone will be created 
+
+### Testing
+
+[Testing.md](testing.md) 
+
+
+### Credits
+ - I would like to thank my mentor Malia for her help, tips and advise all the time.
+ - [Youtube](https://youtu.be/AltqAPZzAqo) This video helped me a lot to understand more about responsive media queries.
+ - [Stackoverflow](https://stackoverflow.com) When I was in doubt about something.
+ - [Code Institute](https://codeinstitute.net/nl/) With the Love Running project. 
+ - [Meetup](https://www.meetup.com/) That gave me the idea to create the site, also the paragraph used.
+
+### Contents
+
+### Media 
+ - The Hero-Image are from the free website: [Pexels](https://www.pexels.com/)
+ - The icons used inside the page are from: [Fontawesome](https://fontawesome.com/)
+ - Icon for the website: [Favicon](https://favicon.io/)
