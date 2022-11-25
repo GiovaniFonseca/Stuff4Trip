@@ -101,7 +101,8 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 
 ### Favicon
-- The site has a Favicon, both the main page, the thank you page and the 404 page also have it, since the site is about technology I chose a Computer Icon.
+<img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
+- The site has a Favicon, since the site is about travel stuff I chose a Bag pink Icon to match with the website color.
 
 
 ## Technology Used
