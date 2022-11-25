@@ -20,26 +20,15 @@ The Stuff4Trip site has been tested in the following ways -
 
 #### Index Page:
 
-<img width="1373" alt="image" src="https://user-images.githubusercontent.com/112728772/195978375-8c379ea9-36f8-4514-9863-838569d5ef13.png">
+<img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054017-c35a45e5-4b3d-4a53-8ecc-a951514e72d5.png">
 
 ### W3C CSS Validator 
 
-- All pages passed the CSS validator without error. 
+<img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054056-86b9357d-68b0-41a4-853d-b8e36ed72590.png">
 
-<img width="1381" alt="image" src="https://user-images.githubusercontent.com/112728772/195978422-6a489907-ec71-4a0c-8e4c-244d3ec15552.png">
+### Jshint Validator (JavaScript)
 
-### W3C HTML Thanks Page 
-#### Thanks Page:
-
-<img width="1392" alt="image" src="https://user-images.githubusercontent.com/112728772/196808059-5ed0b943-1b4c-47e2-a104-59b8b75a0ac8.png">
-
-### W3C HTML Page 404
-#### Page 404:
-
-<img width="1380" alt="image" src="https://user-images.githubusercontent.com/112728772/196808542-804bd001-d3ac-46a7-8a77-be1cafc57471.png">
-
-
-
+<img width="1235" alt="image" src="https://user-images.githubusercontent.com/112728772/204054198-7f7014c5-b8e2-49ba-bacf-2b71c515cb92.png">
 
 ## Lighthouse 
 
