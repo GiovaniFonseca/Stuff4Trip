@@ -2,7 +2,7 @@
 
 Stuff4Trip It's a site where you can put your things that you want to take with you on your trip and not forget anything, saving time, organizing your things and making a safe trip with all your stuff.
 
-<img width="972" alt="image" src="https://user-images.githubusercontent.com/112728772/195933029-c7243ea0-5774-4709-b173-1efe8093dfde.png">
+(put the am i responsive image here)
 
 ## Live Site 
 
@@ -98,11 +98,11 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### Header
 - The header contain the hero-image of the site and a small box on the right inviting the user to join our club.
-<img width="1402" alt="image" src="https://user-images.githubusercontent.com/112728772/195934294-f3091332-d084-43b4-bbc0-1eb45d417c58.png">
+
 
 ### Favicon
 - The site has a Favicon, both the main page, the thank you page and the 404 page also have it, since the site is about technology I chose a Computer Icon.
-<img width="123" alt="image" src="https://user-images.githubusercontent.com/112728772/196803733-62613e4a-9b5d-4162-894a-fa141209690f.png">
+
 
 ## Technology Used
 
