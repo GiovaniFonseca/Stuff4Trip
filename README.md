@@ -86,13 +86,13 @@ Stuff4Trip is a stactic website, made with HTML, CSS and JavaScript.
 The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 #### Phone 
-<img width="227" alt="image" src="https://user-images.githubusercontent.com/112728772/195933405-1b471eb2-ed1c-4651-be08-b7e864610981.png">
+<img width="295" alt="image" src="https://user-images.githubusercontent.com/112728772/204061703-6be65ed3-0ab7-4c48-9b05-6bd18dc7509e.png">
 
 #### Desktop
-<img width="507" alt="image" src="https://user-images.githubusercontent.com/112728772/195933485-c31a0172-3113-44c5-86fc-2fd8212168b9.png">
+<img width="562" alt="image" src="https://user-images.githubusercontent.com/112728772/204061935-cb0e994f-15d6-4426-85c8-f7b9e3ece14a.png">
 
 #### Tablet
-<img width="302" alt="image" src="https://user-images.githubusercontent.com/112728772/195933791-12c65731-8a07-4eec-9cd9-712034e0c714.png">
+<img width="403" alt="image" src="https://user-images.githubusercontent.com/112728772/204062113-40b66545-8be0-4ef0-8fe0-289c71d0535d.png">
 
 ## Features 
 
