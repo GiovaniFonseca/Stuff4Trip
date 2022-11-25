@@ -60,25 +60,22 @@ The site should disclose and help everyone who wants to have a safe trip, knowin
 ## Design
 ### Colour Scheme 
 
-The colours scheme was inspired by the Hero Image, with different shades of Dyke Brown and Saddle Brown.
+The colours scheme was inspired by the Main Image, with different shades of Pink, Black and Tuscany.
 
 
-The colour was design by [Coolors] (https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) to generate some color code as inspiration for the website. 
-* The chosen colors bring clarity to the website, making a contrast with different shades of brown, which is compatible with the main image, while still maintaining a high standard of design and reflecting even more on the main focus of the site.
+The colour was design by [Coolors] (https://coolors.co/6d5f63-be9994-f3b2b1-2f2325-1b1819) to generate some color code as inspiration for the website. 
+* The chosen colors make the site more stylish, contrasting colors that match the main image, maintaining a high design standard.
 
 ### Typography
 
 Google fonts was used:
 
-Righteous: Was used for the headings of the site.
-* It is a font that matches the purpose of the site, the font format makes the site more interesting and brings a more technological look.
-
-Quicksand: Was used for the content of the site.
-* It has a natural design that brings the user clean reading.
+Lora: Was used for the site.
+* It is a font that matches the purpose of the website, the font format makes the website more interesting and brings a more stylish look.
 
 ### Imagery
-The photos were obtained from the free provider: [Pexels] (https://www.pexels.com/photo/group-of-people-watching-on-laptop-1595385/).
-* The image takes us to a new world, where more women are inserted in technological fields, also more inclusive and friendly, which shows that Technology is for everyone.
+The photos were obtained from the free provider: [Pexels] (https://www.pexels.com/photo/neatly-packed-open-suitcase-photo-8276910/).
+* The image chosen matches the purpose of the site, also a friendly image that brings an air of peace, with everything organized, varied colors.
 
 ### Site Structure
 
