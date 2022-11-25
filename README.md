@@ -5,10 +5,10 @@ Stuff4Trip It's a site where you can put your things that you want to take with 
 <img width="972" alt="image" src="https://user-images.githubusercontent.com/112728772/195933029-c7243ea0-5774-4709-b173-1efe8093dfde.png">
 
 ## Live Site 
-[Dev's-Connect](https://giov3ss.github.io/Devs-Connect/)
+
 
 ## Repository
-[https://github.com/Giov3ss/Devs-Connect](https://github.com/Giov3ss/Devs-Connect)
+[https://github.com/Giov3ss/Stuff4Trip](https://github.com/Giov3ss/Stuff4Trip)
 
 - - -
 
@@ -55,13 +55,13 @@ The site should disclose and help everyone who wants to have a safe trip, knowin
 
 ## User Stories
 ### Target Audience 
-* Travellers.
+* Travellers
 
 ## Design
 ### Colour Scheme 
 
 The colours scheme was inspired by the Hero Image, with different shades of Dyke Brown and Saddle Brown.
-<img width="1398" alt="image" src="https://user-images.githubusercontent.com/112728772/195933184-342a6293-db43-4445-863f-68557b31ce38.png">
+
 
 The colour was design by [Coolors] (https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) to generate some color code as inspiration for the website. 
 * The chosen colors bring clarity to the website, making a contrast with different shades of brown, which is compatible with the main image, while still maintaining a high standard of design and reflecting even more on the main focus of the site.
@@ -115,7 +115,6 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### Tools and libraries
 - [coolors.co](https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) - The color scheme that was used on the site.
-- [Font Awesome](https://fontawesome.com/) - Various icons used throughout the site, using version 5.
 - [Google Fonts](https://fonts.google.com/) - Both fonts were used by Google Fonts.
 - [Chrome Devtools](https://developer.chrome.com/docs/devtools/) - Used extensively to experiment with grid, flexbox and general responsiveness. 
 - [Gitpod](https://www.gitpod.io/) - Used to create and host the website.
@@ -160,7 +159,7 @@ To make a copy or ‘fork’ the repository -
 
 ### Testing
 
-[Testing.md](testing.md) 
+[testing.md](testing.md) 
 
 
 ### Credits
@@ -173,6 +172,5 @@ To make a copy or ‘fork’ the repository -
 ### Contents
 
 ### Media 
- - The Hero-Image are from the free website: [Pexels](https://www.pexels.com/)
- - The icons used inside the page are from: [Fontawesome](https://fontawesome.com/)
+ - The Main-Image are from the free website: [Pexels](https://www.pexels.com/)
  - Icon for the website: [Favicon](https://favicon.io/)
