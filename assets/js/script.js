@@ -7,15 +7,20 @@
 window.addEventListener('load', function() { // adding an event listener and function so we wait the page to load; 
     const form = document.getElementById('stuff-form'); // getting the stuff-form by id;
     const input = document.getElementById('stuff-input'); // getting the stuff-input by id; 
-    const stuffElement = document.getElementById('stuff-trip'); // getting the stuff-trip by id; 
+    const stuffElement = document.getElementById('stuff-trip'); // getting the stuff-trip by id;
+    const error = this.document.getElementById('error-message'); 
 
     form.addEventListener('submit', function(e) { // Adding an event listiner 'submit' and function(event);
         e.preventDefault(); // prevent the website from refreshing the page;
 
        const stuff = input.value; // putting the input.value into the variable 'stuff';
        if (!stuff) {
-            alert('Please fill out the stuff! :)'); //creating an if statement for the user to fill in the form and not leave it blank;
-            return; 
+           form.classList.add('error');
+           error.innerHTML = 'Please, enter something to add to your list.';
+           input.focus();
+           return;
+       } else {
+        form.classList.remove('error')
        }
        
        /**
