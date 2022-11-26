@@ -22,22 +22,16 @@
 body, html {
     display: flex;
     flex-direction: column;
- /*   min-height: 100vh; */
     background: linear-gradient(173deg, rgb(236 185 192) 0%, rgb(254 220 223) 29%, rgb(248 199 205) 75%);
-    color: #fff; 
-    height: 100%; 
-}
-
-
-
-#main-image {
-    background-image: url(../images/main-image.jpg);
-    height: auto; 
-    min-height: 100vh; 
-    background-position: center;
-    background-repeat: no-repeat;
+    color: #fff;
+    background: url(../images/main-image.jpg) no-repeat 50% 60% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-}
+    overflow: auto;
+    height: 100vh;
+} 
 
 /* styling the header and h1 */
 
