@@ -50,7 +50,26 @@ header h1 {
 }
 
 #stuff-form {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+form .message {
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.error input[type="text"] {
+    outline: 1px solid red;
+}
+
+form.error .message {
+    display: block;
 }
 
 input, button {
