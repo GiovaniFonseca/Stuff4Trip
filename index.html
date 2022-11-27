@@ -20,34 +20,21 @@
 </head>
 
 <body>
-    <!--Adding the main image-->
-    <div id="main-image">
-        <!--Adding the header-->
-        <header>
-            <h1>Stuff for your Trip</h1>
-            <form id="stuff-form">
-                <input type="text" id="stuff-input" placeholder="What to bring for you trip?">
-                <input type="submit" id="stuff-submit" value="Add stuff">
-                <span id="error-message" class="message-1"></span>
-            </form>
-        </header>
-        <!--adding the main-->
-        <main>
-            <section class="stuff-list">
+    <!-- HEADER -->
+    <header>
+        <h1>Stuff for your Trip</h1>
+        <form id="stuff-form">
+            <input type="text" id="stuff-input" placeholder="What to bring for you trip?">
+            <input type="submit" id="stuff-submit" value="Add stuff">
+            <span id="error-message" class="message 1"></span>
+        </form>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="stuff-list">
                 <h2>My Stuff:</h2>
-
-                <div id="stuff-trip">
-                    <!---
-                <div class="stuff">
-                    <div class="content">  
-                        <input type="text" class="text" value="My new stuff to bring" readonly>         
-                    </div>
-                    <div class="actions">
-                        <button class="edit">Edit</button>
-                        <button class="delete">Delete</button>
-                    </div>           
-                </div>
-                -->
+                <!--Dynamically built list that's inputted by user by JavaScript-->
+                <div id="stuff-trip">                 
                 </div>
 
             </section>

@@ -1,91 +1,200 @@
+/*jshint esversion: 6 */
 
 /**
- * Creating an event and function;
- * Getting the elements from the html, putting them in variable;
+ * Function that update the local storage;
  */
 
-window.addEventListener('load', function() { // adding an event listener and function so we wait the page to load; 
-    const form = document.getElementById('stuff-form'); // getting the stuff-form by id;
-    const input = document.getElementById('stuff-input'); // getting the stuff-input by id; 
-    const stuffElement = document.getElementById('stuff-trip'); // getting the stuff-trip by id;
-    const error = this.document.getElementById('error-message'); 
+function updateStorage() {
+    const items = document.querySelectorAll('.content input[type="text"]');
+    let items_array = [];
+    for (const item of items) {
+        items_array.push(item.getAttribute('value'));
+    }
+    let myObj = { items: items_array};
+    localStorage.setItem('packingStuffList', JSON.stringify(myObj));
+}
 
-    form.addEventListener('submit', function(e) { // Adding an event listiner 'submit' and function(event);
-        e.preventDefault(); // prevent the website from refreshing the page;
+/**
+ * Function that prevents duplicate entries in the packing list
+ * @param {} stuff: string for new item being added
+ * @returns boolean/string: true if an item is found, false if no matching item found
+ */
 
-       const stuff = input.value; // putting the input.value into the variable 'stuff';
-       if (!stuff) {
-           form.classList.add('error');
-           error.innerHTML = 'Please, enter something to add to your list.';
-           input.focus();
-           return;
-       } else {
-        form.classList.remove('error')
-       }
-       
-       /**
-        * creating elements to the page; 
-        */
-       
-       const stuff_el = document.createElement('div'); // creating a div element;
-       stuff_el.classList.add('stuff'); // adding a class to the div;
+function isItemAlreadyThere(stuff) {
+    const items = document.querySelectorAll('.content input[type="text"]');
+    for (const item of items) {
+        if (item.getAttribute('value') === stuff) {
+            return true;
+        }
+    }
+    return false;
+}
 
-       const stuff_content = document.createElement('div'); // creating a div element;
-       stuff_content.classList.add('content'); // adding a class to the div;
+/**
+  * function that checks if form has erros
+  * @param {*} stuff: string for new item being added
+  * @returns error message string or false
+  */
 
-       stuff_el.appendChild(stuff_content); // appending stuff_content to the stuff_el;
+function hasErrors(stuff) {
+    if (!stuff) {
+        return "Please enter something to add to you list stuff.";
+    } else if (isItemAlreadyThere(stuff)) {
+        return `You already have ${stuff} in your list.`;
+    } else {
+        return false;
+    }
+}
 
-       const stuff_input = document.createElement('input'); // creating an input element;
-       stuff_input.classList.add('text'); // adding the class of text;
-       stuff_input.type = 'text'; // defining the type as text;
-       stuff_input.value = stuff; // defining the input.value is equal to the stuff we write in the web; 
-       stuff_input.setAttribute('readonly', 'readonly'); // setting as readonly, so the user cannot edit;
+/**
+ * Function that adds new element to the page that allows user to edit/delete item
+ * @param {*} stuff: string of packing list item
+ * Appends a new HTML element  of following structure:
+ * <div class="stuff">
+ *   <div class="content">  
+ *       <input type="text" class="text" value="My new stuff to bring" readonly>         
+ *   </div>
+ *   <div class="actions">
+ *       <button class="edit">Edit</button>
+ *       <button class="delete">Delete</button>
+ *   </div>           
+ * </div>
+ */
+ 
+ function createNewItem(stuff){
+    // outer element that house all packing list items:
+    const stuffElement = document.getElementById('stuff-trip'); 
 
-       stuff_content.appendChild(stuff_input); // appending stuff_input to the stuff_content;
+    // create div.stuff outer element
+    const stuff_el = document.createElement('div'); 
+    stuff_el.classList.add('stuff'); 
 
-       const actionsElement = document.createElement('div');  // creating a div element;
-       actionsElement.classList.add('actions'); // adding a class to the div;
+    // create div.content child element
+    const stuff_content = document.createElement('div'); 
+    stuff_content.classList.add('content');
+    stuff_el.appendChild(stuff_content); 
 
-       const editElement = document.createElement('button'); // creating the button element;
-       editElement.classList.add('edit'); // adding the class of edit; 
-       editElement.innerHTML = 'Edit'; // set the innerHTML as Edit; 
+    // create read only input element that goes inside div.content element
+    const stuff_input = document.createElement('input'); 
+    stuff_input.classList.add('text'); 
+    stuff_input.type = 'text'; 
+    stuff_input.setAttribute('value', stuff);
+    stuff_input.setAttribute('readonly', 'readonly'); 
+    stuff_content.appendChild(stuff_input); 
 
-       const deleteElement = document.createElement('button'); // creating the button element;
-       deleteElement.classList.add('delete'); // adding the class of edit;
-       deleteElement.innerHTML = 'Delete'; // set the innerHTML as Delete;
+    // create div.actions elemet for edit/delete actions;
+    const actionsElement = document.createElement('div');  
+    actionsElement.classList.add('actions'); 
 
-       actionsElement.appendChild(editElement); // appending editElement to the actionsElement;
-       actionsElement.appendChild(deleteElement); // appending deleteElement to the actionsElement;
+    // create Edit button;
+    const editElement = document.createElement('button');
+    editElement.classList.add('edit');  
+    editElement.innerHTML = 'Edit'; 
+    actionsElement.appendChild(editElement);
 
-       stuff_el.appendChild(actionsElement); // // appending actionsElement to the stuff_el;
+    // create Delete button;
+    const deleteElement = document.createElement('button'); 
+    deleteElement.classList.add('delete');
+    deleteElement.innerHTML = 'Delete'; 
+    actionsElement.appendChild(deleteElement);
 
-       stuffElement.appendChild(stuff_el); // // appending stuff_el to the stuffElement;
+    // appending actionsElement to the stuff_el;
+    stuff_el.appendChild(actionsElement);
 
-       input.value = ''; // settiing the input.value igual to "", to prevent any issue; 
+    // appending stuff_el to the stuffElement;
+    stuffElement.appendChild(stuff_el);
 
-       /**
-        * creating an Event listener and a Fuction to the edit button;
-        */
-
-       editElement.addEventListener('click', function() { // creating an event listener 'click' and function;
-        if (editElement.innerText.toLowerCase() == 'edit') { // creating an if statement so we can 'Edit';
-            stuff_input.removeAttribute('readonly'); // removing the 'readonly' attribute so we can edit;
-            stuff_input.focus(); // setting the focus to the input element, so the cursor will be there if you press 'tab';
-            editElement.innerText = 'Save'; // Adding the 'Save' so we can edit and save the text;
+    // add event listeners to new Edit/ Delete actions;
+    editElement.addEventListener('click', function() { 
+        // if edit, remove read only so user can change things and save 
+        if (editElement.innerText.toLowerCase() == 'edit') { 
+            stuff_input.removeAttribute('readonly'); 
+            stuff_input.focus(); 
+            editElement.innerText = 'Save'; 
         } else {
-            stuff_input.setAttribute('readonly', 'readonly'); // seting an atribute 'readonly' so we can back to normal 
-            editElement.innerText = 'Edit'; // setting the innerText to 'Edit'
+            // save side of editing, switch back to read only and text back to edit;
+            stuff_input.setAttribute('readonly', 'readonly');
+            editElement.innerText = 'Edit'; 
+            updateStorage();
         }
        });
+    
+    // Add the Delete Event listener;
+    deleteElement.addEventListener('click', function() {
+        // removing the child 'stuff_el' so we can press delete and remove; 
+        stuffElement.removeChild(stuff_el);
+        updateStorage(); 
+   });
 
-       /**
-        * creating an Event Listener and a Function to the Delete button;
-        */
+   // update local storage
+   updateStorage();
+}
 
-       deleteElement.addEventListener('click', function() { // creating an event listener 'clicl' and fucntion;
-            stuffElement.removeChild(stuff_el); // removing the child 'stuff_el' so we can press delete and remove;
-       });
+/**
+ * function that handles the stuff input form submit
+ * @returns new element or error state
+ */
 
+function stuffInputHandler(e){
+
+    // prevent the website from refreshing the page
+    e.preventDefault(); 
+
+    const form = document.getElementById('stuff-form'); 
+    const input = document.getElementById('stuff-input');  
+    const error = this.document.getElementById('error-message');
+    const stuff = input.value; 
+
+    // check if any errors
+    const form_errors = hasErrors(stuff);
+    if (form_errors) {
+        error.innerHTML = form_errors;
+        input.focus();
+        form.classList.add('error');
+        return;
+    } else {
+        form.classList.remove('error');
+    }
+
+    // create new element to page with edit/delete handlers
+    createNewItem(stuff);
+
+    // clean out the form so user doesn't have to 
+    input.value = '';
+    
+ }
+
+/**
+ * function to preload data base on local storage having the 'packingStuffList' that has an array of string in items;
+ * ex:
+ * {'item' : ['t-shirts', 'pants']}
+ */
+function preloadInformation(){
+
+    let items = JSON.parse(localStorage.getItem('packingStuffList'));
+    if (items !== null && typeof(items.items) !== undefined && items.items.length > 0){
+        for (const item of items.items) {
+            createNewItem(item);
+        }
+    }
+}
+
+/**
+ * Window load listener
+ * see if there are items in local storage and preload page with that
+ * add event listener to input form submit
+ */
+
+ window.addEventListener('load', function() { 
+    const form = document.getElementById('stuff-form'); 
+    
+    preloadInformation();
+
+    form.addEventListener('submit', function(e) {
+        stuffInputHandler(e);       
     });
-});
+ }); 
+ 
+
+
 
