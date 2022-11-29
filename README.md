@@ -2,7 +2,7 @@
 
 Stuff4Trip It's a site where you can put your things that you want to take with you on your trip and not forget anything, saving time, organizing your things and making a safe trip with all your stuff.
 
-<img width="1381" alt="image" src="https://user-images.githubusercontent.com/112728772/204666157-a4b15a8f-b061-4b06-af41-05d1e04a782f.png">
+<img width="1281" alt="image" src="https://user-images.githubusercontent.com/112728772/204666471-2a511ad4-15a7-499a-919c-38a608948e87.png">
 
 ## Live Site 
 
@@ -61,7 +61,7 @@ The site should disclose and help everyone who wants to have a safe trip, knowin
 ### Colour Scheme 
 
 The colours scheme was inspired by the Main Image, with different shades of Pink, Black and Tuscany.
-<img width="1184" alt="image" src="https://user-images.githubusercontent.com/112728772/204666007-ef0621a4-e356-4629-948c-2c1fc3c80290.png">
+<img width="1435" alt="image" src="https://user-images.githubusercontent.com/112728772/204666615-c04e770a-c363-4671-804e-ead91b2148e1.png">
 
 The colour was design by [Coolors] (https://coolors.co/6d5f63-be9994-f3b2b1-2f2325-1b1819) to generate some color code as inspiration for the website. 
 * The chosen colors make the site more stylish, contrasting colors that match the main image, maintaining a high design standard.
