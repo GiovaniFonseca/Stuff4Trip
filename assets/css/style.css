@@ -196,3 +196,7 @@ main {
 .stuff .actions .delete {
     color: rgb(182, 35, 35);
 }
+
+#msg-js {
+    color: red;
+}

@@ -38,7 +38,7 @@ function isItemAlreadyThere(stuff) {
 
 function hasErrors(stuff) {
     if (!stuff) {
-        return "Please enter something to add to you list stuff.";
+        return "Please enter something to add to your list stuff.";
     } else if (isItemAlreadyThere(stuff)) {
         return `You already have ${stuff} in your list.`;
     } else {
