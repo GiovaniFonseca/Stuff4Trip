@@ -126,16 +126,16 @@ The site was deployed to Github pages.
 ### Deploy to GitHub Pages
 
 1. Navigate to the settings tab in the GitHub repository
-<img width="1422" alt="image" src="https://user-images.githubusercontent.com/112728772/195935516-92364253-e0eb-49b0-a073-bc3697b535a0.png">
+<img width="1395" alt="image" src="https://user-images.githubusercontent.com/112728772/204665064-f77f28cf-9fdb-4ed4-a6c9-0aad4b7f3853.png">
 
 2. Once in settings, navigate to the pages tab on the left of the page
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/112728772/195935737-4a44fd00-d911-4984-ac22-5cd16f11f74a.png">
+<img width="327" alt="image" src="https://user-images.githubusercontent.com/112728772/204665128-ea0176da-4c5c-4c30-8291-093c810e975c.png">
  
 3. Under source, select branch ‘main’ and then click ‘save’
-<img width="708" alt="image" src="https://user-images.githubusercontent.com/112728772/195936079-36d95a64-8671-4e5b-9335-6affa9f830ef.png">
+<img width="770" alt="image" src="https://user-images.githubusercontent.com/112728772/204665218-93e10ba7-633b-416b-9098-5a82a1d36c08.png">
 
 4. Page will not automatically refresh and show a detailed ribbon display to indicate deployment
-<img width="785" alt="image" src="https://user-images.githubusercontent.com/112728772/195937015-50ad61fc-31bd-4e8a-a0bf-8144f8a21bae.png">
+<img width="831" alt="image" src="https://user-images.githubusercontent.com/112728772/204665292-5184480b-41cd-4375-9e72-c0e5f590eaab.png">
 
 
 ### To Fork the Repository 
