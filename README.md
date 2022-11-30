@@ -5,7 +5,7 @@ Stuff4Trip It's a site where you can put your things that you want to take with 
 <img width="1281" alt="image" src="https://user-images.githubusercontent.com/112728772/204666471-2a511ad4-15a7-499a-919c-38a608948e87.png">
 
 ## Live Site 
-
+[https://giov3ss.github.io/Stuff4Trip/](https://giov3ss.github.io/Stuff4Trip/)
 
 ## Repository
 [https://github.com/Giov3ss/Stuff4Trip](https://github.com/Giov3ss/Stuff4Trip)
@@ -107,7 +107,7 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### Languages Used 
 
-- HTML, CSS  and JavaScript were used to create this website.
+- After studying the JavaScript essentials course with Code Institute, this project was created using HTML, CSS  and JavaScript languages.
 
 ### Tools and libraries
 - [coolors.co](https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) - The color scheme that was used on the site.
@@ -160,10 +160,9 @@ To make a copy or ‘fork’ the repository -
 
 ### Credits
  - I would like to thank my mentor Malia for her help, tips and advise all the time.
- - [Youtube](https://youtu.be/AltqAPZzAqo) This video helped me a lot to understand more about responsive media queries.
+ - [Youtube](https://www.youtube.com/) Helped me a lot with some many videos to understanding more about JavaScript.
  - [Stackoverflow](https://stackoverflow.com) When I was in doubt about something.
- - [Code Institute](https://codeinstitute.net/nl/) With the Love Running project. 
- - [Meetup](https://www.meetup.com/) That gave me the idea to create the site, also the paragraph used.
+ - [Code Institute](https://codeinstitute.net/nl/) With the JavaScript Essentials. 
 
 ### Contents
 

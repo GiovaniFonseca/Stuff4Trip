@@ -22,10 +22,11 @@
     <!-- HEADER -->
     <header>
         <h1>Stuff for your Trip</h1>
-        <form id="stuff-form" class="">
+        <form id="stuff-form">
             <input type="text" id="stuff-input" placeholder="What to bring for you trip?">
             <input type="submit" id="stuff-submit" value="Add stuff">
             <span id="error-message" class="message 1"></span>
+            <noscript id="msg-js">Your browser does not support JavaScript!</noscript>
         </form>
     </header>
     <!-- MAIN CONTENT -->
@@ -35,8 +36,6 @@
             <!--Dynamically built list that's inputted by user by JavaScript-->
             <div id="stuff-trip">
             </div>
-            <noscript id="msg-js">Your browser does not support JavaScript!</noscript>
-
         </section>
     </main>
     <script src="assets/js/script.js"></script>
