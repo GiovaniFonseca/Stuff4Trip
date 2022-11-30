@@ -10,7 +10,9 @@ Stuff4Trip It's a site where you can put your things that you want to take with 
 ## Repository
 [https://github.com/Giov3ss/Stuff4Trip](https://github.com/Giov3ss/Stuff4Trip)
 
-- - -
+## Author
+
+Giovani Fonseca
 
 ## **Table of Contents**
 
@@ -112,15 +114,26 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 ### Tools and libraries
 - [coolors.co](https://coolors.co/623d2b-935836-6c6f70-ebebed-b88a68) - The color scheme that was used on the site.
 - [Google Fonts](https://fonts.google.com/) - Both fonts were used by Google Fonts.
+- [Balsamiq](https://balsamiq.com/) Used to build the wireframes.
 - [Chrome Devtools](https://developer.chrome.com/docs/devtools/) - Used extensively to experiment with grid, flexbox and general responsiveness. 
 - [Gitpod](https://www.gitpod.io/) - Used to create and host the website.
 - [Github](https://github.com/) - Used to deploy the website.
 - [Am I Responsive](https://ui.dev/amiresponsive) - Used to creat an image displaying the homepage on multiple devices.
 - [Favicon](https://favicon.io/) - Used to create the Icon for the website.
+- [CSS Gradient](https://cssgradient.io/) To match the colours.
+- [Browserstack](https://www.browserstack.com/) Provided browser compatibility with real desktop and mobile devices.
+- [Table Generator](https://www.tablesgenerator.com/) Used to make a table of de devices and desktops tested.
 
 ### Deployment 
 
 The site was deployed to Github pages.
+
+### Run Locally With GitPod
+
+1. Go to the terminal
+2. Type Git command: python3 -m http.server
+3. A pop-up message will appear on the right-hand side, where Open Browser should be clicked
+4. A new page opens where the site is available
 
 ### Deploy to GitHub Pages
 
@@ -160,11 +173,18 @@ To make a copy or ‘fork’ the repository -
 
 ### Credits
  - I would like to thank my mentor Malia for her help, tips and advise all the time.
- - [Youtube](https://www.youtube.com/) Helped me a lot with some many videos to understanding more about JavaScript.
+ - [Code Institute](https://codeinstitute.net/nl/) With the JavaScript Essentials.
+ - [Youtube](https://www.youtube.com/watch?v=MkESyVB4oUw&t=2010s) This video helped me a lot to understanding more about JavaScript and how to start my project. 
  - [Stackoverflow](https://stackoverflow.com) When I was in doubt about something.
- - [Code Institute](https://codeinstitute.net/nl/) With the JavaScript Essentials. 
+ - [CSS Gradient](https://cssgradient.io/) Helped me to match the background colors.
+ - [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) Helped me to keep the background image in the same spot, so the user can scroll down and the image does not break.
+ 
 
 ### Contents
+
+- [Freshman.tech](https://freshman.tech/todo-list/) Used to understand about the To-do-list project.
+- [Youtube](https://www.youtube.com/watch?v=MkESyVB4oUw&t=2010s) This video inspired me and helped me a lot to understanding more about JavaScript and how to start my project.
+
 
 ### Media 
  - The Main-Image are from the free website: [Pexels](https://www.pexels.com/)
