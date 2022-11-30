@@ -115,7 +115,7 @@ function hasErrors(stuff) {
             // save side of editing, switch back to read only and text back to edit;
             stuff_input.setAttribute('readonly', 'readonly');
             editElement.innerText = 'Edit'; 
-            updateStorage();
+            updateStorage()
         }
        });
     
@@ -123,11 +123,11 @@ function hasErrors(stuff) {
     deleteElement.addEventListener('click', function() {
         // removing the child 'stuff_el' so we can press delete and remove; 
         stuffElement.removeChild(stuff_el);
-        updateStorage(); 
+        updateStorage() 
    });
 
    // update local storage
-   updateStorage();
+   updateStorage()
 }
 
 /**

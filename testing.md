@@ -5,7 +5,7 @@ The Stuff4Trip site has been tested in the following ways -
 - [Code Validation](#code-validation)
     - [W3C HTML Validator](#w3c-html-validator) 
     - [W3C CSS Validator](#w3c-css-validator)
-    - [W3C HTML Thanks Page](#thanks-page)
+    - [Jshint JS Validator ](#jshint-js-validator)
     - [W3C HTML Page 404](#page-404)
 - [Lighthouse](#lighthouse)
 - [Browser Compatibility](#browser-compatibility)
@@ -26,7 +26,7 @@ The Stuff4Trip site has been tested in the following ways -
 
 <img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054056-86b9357d-68b0-41a4-853d-b8e36ed72590.png">
 
-### Jshint Validator (JavaScript)
+### Jshint JS Validator 
 
 <img width="1235" alt="image" src="https://user-images.githubusercontent.com/112728772/204054198-7f7014c5-b8e2-49ba-bacf-2b71c515cb92.png">
 

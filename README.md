@@ -29,7 +29,6 @@ Stuff4Trip It's a site where you can put your things that you want to take with 
       
 2. [Features](#features)  
     * [Header](#header)
-    * [Footer](#footer-section)
     * [Favicon](#Favicon)
         
 3. [Technology Used](#technology-used)  
