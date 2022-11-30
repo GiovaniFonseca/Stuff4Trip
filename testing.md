@@ -50,22 +50,22 @@ I used Lighthouse in Chrome Developer Tools to test each of the pages for:
 
 The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox, with no visible issues for the user. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
-| DEVICE        | BROWSER              |          OS    | VIEWPORT      |
-|---------------|----------------------|----------------|---------------|
-| Pixel 6 Pro   | Chrome               | Android, v10.0 | 412 x 769px   |
-| Galaxy Note 8 | Firefox              | Android, v7.1  | 412 x 718px   |
-| iPhone 12 Pro | Safari               | iOS, v14.2     | 390 x 664px   |
-| iPhone 6S     | Chrome               | iOS, v12.1     | 375 x 559px   |
-| iPhone SE     | Safari               | iOS, v11.2     | 320 x 454px   |
-| iPad Mini 3   | Safari               | iOS, v8.1      | 768 x 960px   |
-| iPad 5th      | Chrome               | iOS, v11.0     | 768 x 954px   |
-| iPad Pro 12   | Safari               | iOs, v14.0     | 1024 x 1292px |
-| Windows PC    | Edge 107             | Windows 11     | 1440 x 821px  |
-| Windows PC    | Firefox 104          | Windows 11     | 1440 x 821px  |
-| Windows PC    | Internet Explorer 11 | Windows 10     | 1440 x 821px  |
-| Macbook       | Safari 13.1          | macOS Catalina | 1440 x 821px  |
-| Macbook       | Firefox 105          | macOS Catalina | 1440 x 821px  |
-| Macbook       | Chrome 106           | MacOS Catalina | 1440 x 821 px |
+| DEVICE            | BROWSER     |          OS    | VIEWPORT       |
+|-------------------|-------------|----------------|----------------|
+| Galaxy S21 Ultra  | Firefox     | Android, v11.0 | 412 x 782 px   |
+| Galaxy M32        | Chrome      | Android, v11.0 | 384 x 726 px   |
+| Moto G7 Play v9.0 | Safari      | Android, v9.0  | 360 x 616 px   |
+| Google Pixel 3a   | Chrome      | Android, v9.0  | 393 x 680 px   |
+| iPhone 14 Plus    | Safari      | iOS, v16.0     | 428 x 746 dp   |
+| iPhone SE 2022    | Chrome      | iOS, v15.4     | 375 x 548 px   |
+| iPad Pro 12.9     | Safari      | iOS, v15.3     | 1024 x 1292 px |
+| iPad Pro 11 2021  | Chrome      | iOS, v14.5     | 834 x 1075 px  |
+| Windows PC        | Edge 108    | windows 10     | 1440 x 821px   |
+| Windows PC        | Opera 92    | Windows 11     | 1440 x 821px   |
+| Windows PC        | Firefox 107 | Windows 11     | 1440 x 821px   |
+| Windows PC        | Firefox 107 | Windows 10     | 1440 x 821px   |
+| Macbook           | Safari 15.6 | macOS Monterey | 1440 x 821px   |
+| Macbook           | Opera 92    | MacOS Catalina | 1440 x 821 px  |
 
 ## Manual Testing 
 
@@ -73,23 +73,14 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 #### Sign up Form:
  - [x] Try to submit
  - [x] Try to submit the empty form and verify that an error message about the required fields appears
- - [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
- - [x] Try to submit the form with all inputs valid and verify that a success messsage appears
+ - [x] Try to submit the same content, anda message appears
  - [x] No console errors
  - [x] Looks good on Mobile, Tablet and Desktop 
 
  #### Responsive Testing:
  - For each Device/ Browser/ OS noted in the Browser Compatibility Table, this flow was tested:
- - [x] Click or tap on Signup - verify smooth scrolling and no distortions in about us & map. 
- - [x] Form is easy to access and invalid entries are noted.
- - [x] Submission of form takes user to Thanks Page.
- - [x] Thanks Page takes user back to index.html to apropriate section
- 
- #### Thanks Page:
--  [x] when sign up form is successfully entered, and a Thanks Page comes up
--  [x] The links go to the right page
--  [x] Social Medias in the footer open in a new tab to the correct destination
--  [x] Navigation links go to the correct page/ section on index.html
+ - [x] Input field is easy to access and invalid entries are noted.
+ - [x] Buttons working as normal(Add stuff, Edit, Delete and Save)
 
 #### Page 404:
 -  [x] User goes within [Dev's Connect](https://giov3ss.github.io/Devs-Connect/) domain, but outside of expected index.html or thanks.html, they see the custom 404.html page.
