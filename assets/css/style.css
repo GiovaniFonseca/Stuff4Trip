@@ -201,4 +201,16 @@ main {
     color: red;
 }
 
+#error {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
 
+#error-msg {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--darkest);
+    text-decoration: none;
+}

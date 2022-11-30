@@ -83,10 +83,8 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
  - [x] Buttons working as normal(Add stuff, Edit, Delete and Save)
 
 #### Page 404:
--  [x] User goes within [Dev's Connect](https://giov3ss.github.io/Devs-Connect/) domain, but outside of expected index.html or thanks.html, they see the custom 404.html page.
--  [x] Links on page go to the right section.
--  [x] Social Medias in the footer open in a new tab to the correct destination.
--  [x] Navigation links go to the correct page/ section on index.html
+-  [x] User goes within [Stuff4Trip](https://giov3ss.github.io/Stuff4Trip/) domain, but outside of expected index.html they see the custom 404.html page.
+-  [x] Navigation link go to back to the main page.
 
 ## Bugs
 - Constant unit test was done as the features were added. Fixed, checked with appropriate commit messages. No official tracking system was used as the project scope was relatively small.
