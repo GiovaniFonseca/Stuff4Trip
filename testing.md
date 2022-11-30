@@ -40,10 +40,10 @@ I used Lighthouse in Chrome Developer Tools to test each of the pages for:
 - SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
 
 #### Mobile:
-<img width="566" alt="image" src="https://user-images.githubusercontent.com/112728772/195978485-3a878aab-8b69-472a-b909-b37c09fbae59.png">
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/112728772/204670808-0cd903ce-f77c-4510-b080-ea18e975306a.png">
 
 #### Desktop:
-<img width="548" alt="image" src="https://user-images.githubusercontent.com/112728772/195978727-caeeeff2-f372-4f01-bb50-34fc0afa94bd.png">
+<img width="955" alt="image" src="https://user-images.githubusercontent.com/112728772/204670868-28a4280f-3e3a-42a4-8be0-b328786b253a.png">
 
 
 ## Browser Compatibility
