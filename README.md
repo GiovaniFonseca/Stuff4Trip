@@ -96,7 +96,8 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 ## Features 
 
 ### Header
-- The header contain the name of the website also the input, where the user can add things to your Stuff Trip List.
+- The header contain the name of the website also an input, where the user can add things to your Stuff Trip List.
+<img width="1436" alt="image" src="https://user-images.githubusercontent.com/112728772/204929882-e56ac159-7301-4c4b-a8e6-457499199c58.png">
 
 ### Favicon
 <img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
