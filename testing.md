@@ -30,6 +30,9 @@ The Stuff4Trip site has been tested in the following ways -
 
 <img width="1235" alt="image" src="https://user-images.githubusercontent.com/112728772/204054198-7f7014c5-b8e2-49ba-bacf-2b71c515cb92.png">
 
+### W3C HTML Page 404
+<img width="1399" alt="image" src="https://user-images.githubusercontent.com/112728772/205168343-73a609be-67cc-4ea9-be1e-5d47c5d928cc.png">
+
 ## Lighthouse 
 
 I used Lighthouse in Chrome Developer Tools to test each of the pages for:
