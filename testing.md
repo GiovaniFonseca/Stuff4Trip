@@ -73,7 +73,7 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 #### Sign up Form:
  - [x] Try to submit
  - [x] Try to submit the empty form and verify that an error message about the required fields appears
- - [x] Try to submit the same content, anda message appears
+ - [x] Try to submit the same content, and a message appears
  - [x] No console errors
  - [x] Looks good on Mobile, Tablet and Desktop 
 
