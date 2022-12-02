@@ -103,14 +103,8 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
       overflow: auto;
       height: 100vh; }
   so now, when the user's list hit the bottom, the background image stays fixed at the back, and the user can still add more items in the list, and scrow down the page as normal.
-![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205187449-723b846b-a28c-499f-925b-5085c66dfa9f.gif)
 
-
-- Also the "About us" section when the text was centered and on a small device it was difficult to read.
-  * So I just addded the {text-align:left} to the About Us text, to make it easy to read.
-
-- Also the Sign Up section, the form was really narrow in a small devices, because of the margins that I put before.
-  * I just updated the breakpoints in the .container, with new values, to have the gray background on small devices like desktop.
+- ![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205187449-723b846b-a28c-499f-925b-5085c66dfa9f.gif)
 
 ## Outstanding Defects
 
