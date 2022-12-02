@@ -6,7 +6,7 @@ The Stuff4Trip site has been tested in the following ways -
     - [W3C HTML Validator](#w3c-html-validator) 
     - [W3C CSS Validator](#w3c-css-validator)
     - [Jshint JS Validator ](#jshint-js-validator)
-    - [W3C HTML Page 404](#page-404)
+    - [W3C HTML Page 404](#w3c-html-page-404)
 - [Lighthouse](#lighthouse)
 - [Browser Compatibility](#browser-compatibility)
 - [Manual Testing](#manual-testing)
@@ -93,8 +93,16 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 - Constant unit test was done as the features were added. Fixed, checked with appropriate commit messages. No official tracking system was used as the project scope was relatively small.
 
 ### Defects of note 
-- I had a problem where the user scrolls the page, the navigation bar disappears.
-  * I just added header { position: fixed; } to fix the nav bar, so when the user scroll down the page, the header still visible, and the user can click in the sections.
+- I had a problem where the user put items to the list so when the list hit the bottom, my background image broke.
+  * I just added in my CSS body, html:
+      { background: url(../images/main-image.jpg) no-repeat 50% 60% fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      overflow: auto;
+      height: 100vh; }
+  so now, when the user's list hit the bottom, the background image stays fixed at the back, and the user can still add more items in the list, and scrow down the page as normal.
 <img width="1434" alt="image" src="https://user-images.githubusercontent.com/112728772/195998721-98a977b1-5d61-4d3a-a1c2-adb5c5bbadbf.png">
 
 - Also the "About us" section when the text was centered and on a small device it was difficult to read.
