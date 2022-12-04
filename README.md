@@ -28,7 +28,13 @@ Giovani Fonseca
         * [Site Structure](#site-structure)
         * [Wireframes](#wireframes)
       
-2. [Features](#features)  
+2. [Features](#features)
+    * [Header](#header)
+    * [Buttons](#buttons)
+    * [Error-message](#error-message)
+    * [Preloading](#Preload data)
+    * [404 Page](#404-page)
+    * [NonScript](#nonscript)
     * [Favicon](#Favicon)
 
 3. [Future Features](#future-features)
@@ -96,9 +102,11 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ## Features 
 
+### Header
 - The header contain the name of the website also the input, where the user can add things to your Stuff Trip List.
 <img width="1434" alt="image" src="https://user-images.githubusercontent.com/112728772/205497736-5e28d144-8952-4acd-919c-c5d64f6b7ae6.png">
 
+### Buttons
 - The user can Adding an item just clicking in the button "Add Stuff".
 <img width="117" alt="image" src="https://user-images.githubusercontent.com/112728772/205497752-d499859c-0c92-4416-b73e-862e5b244d91.png">
 
@@ -108,6 +116,7 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 - The user can Delete an item just clicking in the button "Delete".
 <img width="104" alt="image" src="https://user-images.githubusercontent.com/112728772/205497785-de85afbe-37b8-4519-9058-5d1139f81162.png">
 
+### Error messsage 
 - An error message appears if the user no provide:
     - an input text
     <img width="857" alt="image" src="https://user-images.githubusercontent.com/112728772/205497826-de892791-0b53-4d58-a98d-a47424b92182.png">
@@ -115,12 +124,15 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
     - or put Duplicate input.
     <img width="810" alt="image" src="https://user-images.githubusercontent.com/112728772/205497865-70afbf58-a61c-4b08-bc31-c5131951f427.png">
 
+### Preload data
 - Preloading works, thus if the user close the browser and go back to the deployed URL, the data preloads from the local storage.
 ![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205497958-d3d5848d-2b27-4b31-ad7f-fc1102bf4741.gif)
 
+### 404 Page
 - The Page 404, it's the 404 Error, so if the user writes something wrong in the URL, a stylized message appears, the page has a link to "Back to the homepage", which takes back to the main page.
 <img width="1261" alt="image" src="https://user-images.githubusercontent.com/112728772/205498005-468e9b6f-9671-47fa-8e9c-9f375037356b.png">
 
+### NonScript
 - Nonscript tag, if the user disable javascript or if it's not supported, the user is notified with a message, so the user need to turn it on to use the site.
 <img width="1190" alt="image" src="https://user-images.githubusercontent.com/112728772/205498033-9d4372e8-bf78-412c-91dd-dd49a6bbcc24.png">
 
@@ -205,13 +217,13 @@ To make a copy or ‘fork’ the repository -
 
 ### Credits
  - I would like to thank my mentor Malia for her help, tips and advise all the time.
- - - Instructions on how to implement the HTML and CSS code using GitHub was taken from the HTML, CSS and Javascript course from Code Institute.
+ - Instructions on how to implement the HTML and CSS code using GitHub was taken from the HTML, CSS and Javascript course from Code Institute.
  - [Code Institute](https://codeinstitute.net/nl/) With the JavaScript Essentials.
  - [Youtube](https://www.youtube.com/watch?v=MkESyVB4oUw&t=2010s) This video inspired me and helped me a lot to understanding more about JavaScript and how to start my project. 
  - [Stackoverflow](https://stackoverflow.com) When I was in doubt about something.
  - [CSS Gradient](https://cssgradient.io/) Helped me to match the background colors.
  - [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) Helped me to keep the background image in the same spot, so the user can scroll down and the image does not break.
- -[JSON Local Storage](https://frontend.turing.edu/) Helped me to understand a bit about Local Storage using JSON.
+ - [JSON Local Storage](https://frontend.turing.edu/) Helped me to understand a bit about Local Storage using JSON.
  - [Freshman.tech](https://freshman.tech/todo-list/) Used to understand about the To-do-list project.
 
 ### Media 
