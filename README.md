@@ -208,18 +208,14 @@ To make a copy or ‘fork’ the repository -
 
 ### Credits
  - I would like to thank my mentor Malia for her help, tips and advise all the time.
+ - - Instructions on how to implement the HTML and CSS code using GitHub was taken from the HTML, CSS and Javascript course from Code Institute.
  - [Code Institute](https://codeinstitute.net/nl/) With the JavaScript Essentials.
- - [Youtube](https://www.youtube.com/watch?v=MkESyVB4oUw&t=2010s) This video helped me a lot to understanding more about JavaScript and how to start my project. 
+ - [Youtube](https://www.youtube.com/watch?v=MkESyVB4oUw&t=2010s) This video inspired me and helped me a lot to understanding more about JavaScript and how to start my project. 
  - [Stackoverflow](https://stackoverflow.com) When I was in doubt about something.
  - [CSS Gradient](https://cssgradient.io/) Helped me to match the background colors.
  - [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/) Helped me to keep the background image in the same spot, so the user can scroll down and the image does not break.
- 
-
-### Contents
-
-- [Freshman.tech](https://freshman.tech/todo-list/) Used to understand about the To-do-list project.
-- [Youtube](https://www.youtube.com/watch?v=MkESyVB4oUw&t=2010s) This video inspired me and helped me a lot to understanding more about JavaScript and how to start my project.
-
+ -[JSON Local Storage](https://frontend.turing.edu/) Helped me to understand a bit about Local Storage using JSON.
+ - [Freshman.tech](https://freshman.tech/todo-list/) Used to understand about the To-do-list project.
 
 ### Media 
  - The Main-Image are from the free website: [Pexels](https://www.pexels.com/)
