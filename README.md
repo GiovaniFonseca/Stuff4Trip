@@ -127,16 +127,6 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 - Nonscript tag, if the user disable javascript or if it's not supported, the user is notified with a message, so the user need to turn it on to use the site.
 <img width="1190" alt="image" src="https://user-images.githubusercontent.com/112728772/205498033-9d4372e8-bf78-412c-91dd-dd49a6bbcc24.png">
 
-
-
-- [x] Error message for no input.
-- [x] Error message for duplicate input. 
-- [x] Pre-loading works, if I close my browser and go back to the deployed URL, my data preloads.
-- [x] Edit: User can edit things & preload knows.
-- [x] Delete: User can delete things & preload knows.
-- [x] Valid entry adds to list.
-- [x] User disables Javascript, is notified they need to turn it on to use the site.
-
 ### Favicon
 <img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
 - The site has a Favicon, since the site is about travel stuff I chose a Bag pink Icon to match with the website color.

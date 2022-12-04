@@ -76,7 +76,13 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 #### Stuff For Trip Form:
  - [x] Try to submit
  - [x] Try to submit the empty form and verify that an error message about the required fields appears
- - [x] Try to submit the same content, and a message appears
+ - [x] Error message for no input.
+ - [x] Error message for duplicate input. 
+ - [x] Pre-loading works, if I close my browser and go back to the deployed URL, my data preloads.
+ - [x] Edit: User can edit things & preload knows.
+ - [x] Delete: User can delete things & preload knows.
+ - [x] Valid entry adds to list.
+ - [x] User disables Javascript, is notified they need to turn it on to use the site.
  - [x] No console errors
  - [x] Looks good on Mobile, Tablet and Desktop 
 
