@@ -133,7 +133,7 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ## Future Features
 ### Add error handing to EDIT/SAVE so that user can’t sneak in a duplicate or empty value:
-    - Additional features to be implemented: If the user click on the "Edit" button, and "Save" with an empty data or duplicate content, still save with no issues or error message, so I want to change this to ensure that the user have something in there and then not allow the duplicates to happens.
+- Additional features to be implemented: If the user click on the "Edit" button, and "Save" with an empty data or duplicate content, still save with no issues or error message, so I want to change this to ensure that the user have something in there and then not allow the duplicates to happens.
 
 ## Technology Used
 
