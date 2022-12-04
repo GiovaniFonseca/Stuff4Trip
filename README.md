@@ -19,9 +19,8 @@ Giovani Fonseca
 1. [UX Development](#ux-development)
     * [Project Goal](#project-goal)
 
-    * [User Stories](#user-stories)
-        * [Target Audience](#target-audience)
-
+    * [Target Audience](#target-audience)
+  
     * [Design](#design)
         * [Colour Scheme](#colour-scheme)
         * [Typography](#typography)
@@ -30,7 +29,6 @@ Giovani Fonseca
         * [Wireframes](#wireframes)
       
 2. [Features](#features)  
-    * [Header](#header)
     * [Favicon](#Favicon)
 
 3. [Future Features](#future-features)
@@ -44,7 +42,6 @@ Giovani Fonseca
 6. [Deployment](#deployment)  
   
 7. [Credits](#credits)
-    * [Contents](#contents)
     * [Media](#media)  
 
 - - -

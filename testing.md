@@ -119,4 +119,4 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 
 ## MAIN PAGE (README)
 
-[Back to main readme](https://github.com/Giov3ss/Devs-Connect#testing)
+[Back to main readme](https://github.com/Giov3ss/Stuff4Trip#testing)
