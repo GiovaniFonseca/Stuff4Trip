@@ -131,6 +131,9 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 <img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
 - The site has a Favicon, since the site is about travel stuff I chose a Bag pink Icon to match with the website color.
 
+## Future Features
+### Add error handing to EDIT/SAVE so that user can’t sneak in a duplicate or empty value:
+    - Additional features to be implemented: If the user click on the "Edit" button, and "Save" with an empty data or duplicate content, still save with no issues or error message, so I want to change this to ensure that the user have something in there and then not allow the duplicates to happens.
 
 ## Technology Used
 
