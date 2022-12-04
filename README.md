@@ -100,15 +100,33 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 ## Features 
 
 - The header contain the name of the website also the input, where the user can add things to your Stuff Trip List.
+<img width="1434" alt="image" src="https://user-images.githubusercontent.com/112728772/205497736-5e28d144-8952-4acd-919c-c5d64f6b7ae6.png">
+
 - The user can Adding an item just clicking in the button "Add Stuff".
+<img width="117" alt="image" src="https://user-images.githubusercontent.com/112728772/205497752-d499859c-0c92-4416-b73e-862e5b244d91.png">
+
 - The user can Editing an item just clicking in the button "Edit".
+<img width="75" alt="image" src="https://user-images.githubusercontent.com/112728772/205497769-5b91ebc0-a2c6-497d-a59e-7cf060f00521.png">
+
 - The user can Delete an item just clicking in the button "Delete".
+<img width="104" alt="image" src="https://user-images.githubusercontent.com/112728772/205497785-de85afbe-37b8-4519-9058-5d1139f81162.png">
+
 - An error message appears if the user no provide:
     - an input text
-    - or put Duplicate input. 
-- Preloading works, thus if the user close the browser and go back to the deployed URL, the data preloads from the local storage. 
+    <img width="857" alt="image" src="https://user-images.githubusercontent.com/112728772/205497826-de892791-0b53-4d58-a98d-a47424b92182.png">
+
+    - or put Duplicate input.
+    <img width="810" alt="image" src="https://user-images.githubusercontent.com/112728772/205497865-70afbf58-a61c-4b08-bc31-c5131951f427.png">
+
+- Preloading works, thus if the user close the browser and go back to the deployed URL, the data preloads from the local storage.
+![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205497958-d3d5848d-2b27-4b31-ad7f-fc1102bf4741.gif)
+
 - The Page 404, it's the 404 Error, so if the user writes something wrong in the URL, a stylized message appears, the page has a link to "Back to the homepage", which takes back to the main page.
+<img width="1261" alt="image" src="https://user-images.githubusercontent.com/112728772/205498005-468e9b6f-9671-47fa-8e9c-9f375037356b.png">
+
 - Nonscript tag, if the user disable javascript or if it's not supported, the user is notified with a message, so the user need to turn it on to use the site.
+<img width="1190" alt="image" src="https://user-images.githubusercontent.com/112728772/205498033-9d4372e8-bf78-412c-91dd-dd49a6bbcc24.png">
+
 
 
 - [x] Error message for no input.
