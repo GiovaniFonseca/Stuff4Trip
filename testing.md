@@ -73,7 +73,7 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 ## Manual Testing 
 
 ### Manual Testing 
-#### Sign up Form:
+#### Stuff For Trip Form:
  - [x] Try to submit
  - [x] Try to submit the empty form and verify that an error message about the required fields appears
  - [x] Try to submit the same content, and a message appears

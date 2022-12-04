@@ -32,16 +32,18 @@ Giovani Fonseca
 2. [Features](#features)  
     * [Header](#header)
     * [Favicon](#Favicon)
+
+3. [Future Features](#future-features)
         
-3. [Technology Used](#technology-used)  
+4. [Technology Used](#technology-used)  
     * [Language Used](#languages-used)
     * [Tools and Libraries](#tools-and-libraries)
 
-4. [Testing](#testing)
+5. [Testing](#testing)
 
-5. [Deployment](#deployment)  
+6. [Deployment](#deployment)  
   
-6. [Credits](#credits)
+7. [Credits](#credits)
     * [Contents](#contents)
     * [Media](#media)  
 
@@ -97,8 +99,25 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ## Features 
 
-### Header
 - The header contain the name of the website also the input, where the user can add things to your Stuff Trip List.
+- The user can Adding an item just clicking in the button "Add Stuff".
+- The user can Editing an item just clicking in the button "Edit".
+- The user can Delete an item just clicking in the button "Delete".
+- An error message appears if the user no provide:
+    - an input text
+    - or put Duplicate input. 
+- Preloading works, thus if the user close the browser and go back to the deployed URL, the data preloads from the local storage. 
+- The Page 404, it's the 404 Error, so if the user writes something wrong in the URL, a stylized message appears, the page has a link to "Back to the homepage", which takes back to the main page.
+- Nonscript tag, if the user disable javascript or if it's not supported, the user is notified with a message, so the user need to turn it on to use the site.
+
+
+- [x] Error message for no input.
+- [x] Error message for duplicate input. 
+- [x] Pre-loading works, if I close my browser and go back to the deployed URL, my data preloads.
+- [x] Edit: User can edit things & preload knows.
+- [x] Delete: User can delete things & preload knows.
+- [x] Valid entry adds to list.
+- [x] User disables Javascript, is notified they need to turn it on to use the site.
 
 ### Favicon
 <img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
