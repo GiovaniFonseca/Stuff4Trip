@@ -16,7 +16,7 @@ The Stuff4Trip site has been tested in the following ways -
 
 ## Code Validation 
 
-### Index Page:
+### W3C HTML Index:
   <img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054017-c35a45e5-4b3d-4a53-8ecc-a951514e72d5.png">
 
 ### W3C HTML Page 404
