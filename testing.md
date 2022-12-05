@@ -20,6 +20,7 @@ The Stuff4Trip site has been tested in the following ways -
   <img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054017-c35a45e5-4b3d-4a53-8ecc-a951514e72d5.png">
 
 ### W3C HTML Page 404
+
   <img width="1399" alt="image" src="https://user-images.githubusercontent.com/112728772/205168343-73a609be-67cc-4ea9-be1e-5d47c5d928cc.png">
 
 ### W3C CSS Validator 
