@@ -17,7 +17,7 @@ Giovani Fonseca
 ## **Table of Contents**
 
 1. [UX Development](#ux-development)
-    *[Target Audience](#target-audience)
+    * [Target Audience](#target-audience)
     * [Project Goal](#project-goal)
     * [User Stories](#user-stories)
     * [Design](#design)
@@ -126,8 +126,9 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
     <img width="810" alt="image" src="https://user-images.githubusercontent.com/112728772/205497865-70afbf58-a61c-4b08-bc31-c5131951f427.png">
 
 ### Preload data
-- To prevent user irritation when re-visiting the site, entries are stored in local storage and pre-loaded. This will save the user time from re-entering common items if they use the site more than once or want to add to a list, or double check if they have everything packed at a later time. 
-![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205497958-d3d5848d-2b27-4b31-ad7f-fc1102bf4741.gif)
+- To prevent user irritation when re-visiting the site, entries are stored in local storage and pre-loaded. This will save the user time from re-entering common items if they use the site more than once or want to add to a list, or double check if they have everything packed at a later time.
+
+    ![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205497958-d3d5848d-2b27-4b31-ad7f-fc1102bf4741.gif)
 
 ### 404 Page
 - The Page 404, it's the 404 Error, so if the user writes something wrong in the URL, a stylized message appears, the page has a link to "Back to the homepage", which takes back to the main page.
