@@ -177,7 +177,8 @@ For future features I would like to add some enhancements that will make my webs
 ### Deployment 
 
 [https://giov3ss.github.io/Stuff4Trip/](https://giov3ss.github.io/Stuff4Trip/)
-The site was deployed to Github pages.
+
+- The site was deployed to Github pages.
 
 ### Run Locally With GitPod
 
