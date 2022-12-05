@@ -87,13 +87,13 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
     * From the Advanced section, tap Site settings.
     * Tap JavaScript.
     * Tap the JavaScript switch to turn on or turn off.
- - [x] No console errors
- - [x] Looks good on Mobile, Tablet and Desktop 
+ - [x] No console errors.
+ - [x] Looks good on Mobile, Tablet and Desktop.
 
  #### Responsive Testing:
  - For each Device/ Browser/ OS noted in the Browser Compatibility Table, this flow was tested:
  - [x] Input field is easy to access and invalid entries are noted.
- - [x] Buttons working as normal(Add stuff, Edit, Delete and Save)
+ - [x] Buttons working as normal(Add stuff, Edit, Delete and Save).
 
 #### Page 404:
 -  [x] User goes within [Stuff4Trip](https://giov3ss.github.io/Stuff4Trip/) domain, but outside of expected index.html they see the custom 404.html page.
