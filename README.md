@@ -68,7 +68,7 @@ Giovani Fonseca
 ### Colour Scheme 
 
 The colours scheme was inspired by the Main Image, with different shades of Pink, Black and Tuscany.
-<img width="1435" alt="image" src="https://user-images.githubusercontent.com/112728772/204666615-c04e770a-c363-4671-804e-ead91b2148e1.png">
+    <img width="1435" alt="image" src="https://user-images.githubusercontent.com/112728772/204666615-c04e770a-c363-4671-804e-ead91b2148e1.png">
 
 The colour was design by [Coolors] (https://coolors.co/6d5f63-be9994-f3b2b1-2f2325-1b1819) to generate some color code as inspiration for the website. 
 * The bright colors chosen install a sense of excitement and fun that people feel when they travel, the colors make the site more stylish, contrasting colors that match the main image, maintaining a high design standard.
@@ -105,17 +105,17 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### Header
 - The header contain the name of the website also the input, where the user can add things to your Stuff Trip List.
-<img width="1434" alt="image" src="https://user-images.githubusercontent.com/112728772/205497736-5e28d144-8952-4acd-919c-c5d64f6b7ae6.png">
+    <img width="1434" alt="image" src="https://user-images.githubusercontent.com/112728772/205497736-5e28d144-8952-4acd-919c-c5d64f6b7ae6.png">
 
 ### Buttons
 - The user can Adding an item just clicking in the button "Add Stuff".
-<img width="117" alt="image" src="https://user-images.githubusercontent.com/112728772/205497752-d499859c-0c92-4416-b73e-862e5b244d91.png">
+    <img width="117" alt="image" src="https://user-images.githubusercontent.com/112728772/205497752-d499859c-0c92-4416-b73e-862e5b244d91.png">
 
 - The user can Editing an item just clicking in the button "Edit".
-<img width="75" alt="image" src="https://user-images.githubusercontent.com/112728772/205497769-5b91ebc0-a2c6-497d-a59e-7cf060f00521.png">
+    <img width="75" alt="image" src="https://user-images.githubusercontent.com/112728772/205497769-5b91ebc0-a2c6-497d-a59e-7cf060f00521.png">
 
 - The user can Delete an item just clicking in the button "Delete".
-<img width="104" alt="image" src="https://user-images.githubusercontent.com/112728772/205497785-de85afbe-37b8-4519-9058-5d1139f81162.png">
+    <img width="104" alt="image" src="https://user-images.githubusercontent.com/112728772/205497785-de85afbe-37b8-4519-9058-5d1139f81162.png">
 
 ### Error message 
 - An error message appears if the user no provide:
@@ -132,15 +132,15 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### 404 Page
 - The Page 404, it's the 404 Error, so if the user writes something wrong in the URL, a stylized message appears, the page has a link to "Back to the homepage", which takes back to the main page.
-<img width="1261" alt="image" src="https://user-images.githubusercontent.com/112728772/205498005-468e9b6f-9671-47fa-8e9c-9f375037356b.png">
+    <img width="1261" alt="image" src="https://user-images.githubusercontent.com/112728772/205498005-468e9b6f-9671-47fa-8e9c-9f375037356b.png">
 
 ### NonScript
 - Nonscript tag, if the user disable javascript or if it's not supported, the user is notified with a message, so the user need to turn it on to use the site.
-<img width="1190" alt="image" src="https://user-images.githubusercontent.com/112728772/205498033-9d4372e8-bf78-412c-91dd-dd49a6bbcc24.png">
+    <img width="1190" alt="image" src="https://user-images.githubusercontent.com/112728772/205498033-9d4372e8-bf78-412c-91dd-dd49a6bbcc24.png">
 
 ### Favicon
-<img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
 - The site has a Favicon, since the site is about travel stuff I chose a Bag pink Icon to match with the website color.
+    <img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
 
 ## Future Features
 
@@ -188,21 +188,21 @@ The site was deployed to Github pages.
 ### Deploy to GitHub Pages
 
 1. Navigate to the settings tab in the GitHub repository
-<img width="1395" alt="image" src="https://user-images.githubusercontent.com/112728772/204665064-f77f28cf-9fdb-4ed4-a6c9-0aad4b7f3853.png">
+    <img width="1395" alt="image" src="https://user-images.githubusercontent.com/112728772/204665064-f77f28cf-9fdb-4ed4-a6c9-0aad4b7f3853.png">
 
 2. Once in settings, navigate to the pages tab on the left of the page
-<img width="327" alt="image" src="https://user-images.githubusercontent.com/112728772/204665128-ea0176da-4c5c-4c30-8291-093c810e975c.png">
+    <img width="327" alt="image" src="https://user-images.githubusercontent.com/112728772/204665128-ea0176da-4c5c-4c30-8291-093c810e975c.png">
  
 3. Under source, select branch ‘main’ and then click ‘save’
-<img width="770" alt="image" src="https://user-images.githubusercontent.com/112728772/204665218-93e10ba7-633b-416b-9098-5a82a1d36c08.png">
+    <img width="770" alt="image" src="https://user-images.githubusercontent.com/112728772/204665218-93e10ba7-633b-416b-9098-5a82a1d36c08.png">
 
 4. Page will not automatically refresh and show a detailed ribbon display to indicate deployment
-<img width="831" alt="image" src="https://user-images.githubusercontent.com/112728772/204665292-5184480b-41cd-4375-9e72-c0e5f590eaab.png">
+    <img width="831" alt="image" src="https://user-images.githubusercontent.com/112728772/204665292-5184480b-41cd-4375-9e72-c0e5f590eaab.png">
 
 
 ### To Fork the Repository 
 
-To make a copy or ‘fork’ the repository - 
+To make a copy or ‘fork’ the repository:
 
 1. Log into GitHub and locate repository
 2. On the right hand side of the page select the ‘fork’ option to create and copy of the original
