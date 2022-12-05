@@ -119,9 +119,11 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 ## Outstanding Defects
 - If the user click on the "Edit" button, and "Save" with an empty data or duplicate content, still save with no issues or error message, this issue wasn't fixed immediately as it's the user's choice to sneak behind the checks for main input. They will see if they have an empty entry, or duplicate entry and they did it on purpose.
 - Empty data:
+
   <img width="847" alt="image" src="https://user-images.githubusercontent.com/112728772/205503004-40e6f356-4721-423a-92d0-6f3b9f1e3e9f.png">
 
 - Duplicate data:
+
   <img width="823" alt="image" src="https://user-images.githubusercontent.com/112728772/205503100-fb1501a2-7dc2-4070-8a44-8b719bfab5ca.png">
 
 
