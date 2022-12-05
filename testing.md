@@ -3,7 +3,7 @@
 The Stuff4Trip site has been tested in the following ways -
 
 - [Code Validation](#code-validation)
-    - [W3C HTML Validator](#w3c-html-validator)
+    - [W3C HTML Index](#w3c-html-index)
     - [W3C HTML Page 404](#w3c-html-page-404) 
     - [W3C CSS Validator](#w3c-css-validator)
     - [Jshint JS Validator ](#jshint-js-validator)
@@ -16,22 +16,17 @@ The Stuff4Trip site has been tested in the following ways -
 
 ## Code Validation 
 
-### W3C HTML Validator
-
-#### Index Page:
-
-<img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054017-c35a45e5-4b3d-4a53-8ecc-a951514e72d5.png">
+### Index Page:
+  <img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054017-c35a45e5-4b3d-4a53-8ecc-a951514e72d5.png">
 
 ### W3C HTML Page 404
-<img width="1399" alt="image" src="https://user-images.githubusercontent.com/112728772/205168343-73a609be-67cc-4ea9-be1e-5d47c5d928cc.png">
+  <img width="1399" alt="image" src="https://user-images.githubusercontent.com/112728772/205168343-73a609be-67cc-4ea9-be1e-5d47c5d928cc.png">
 
 ### W3C CSS Validator 
-
-<img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054056-86b9357d-68b0-41a4-853d-b8e36ed72590.png">
+  <img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054056-86b9357d-68b0-41a4-853d-b8e36ed72590.png">
 
 ### Jshint JS Validator 
-
-<img width="1235" alt="image" src="https://user-images.githubusercontent.com/112728772/204054198-7f7014c5-b8e2-49ba-bacf-2b71c515cb92.png">
+  <img width="1235" alt="image" src="https://user-images.githubusercontent.com/112728772/204054198-7f7014c5-b8e2-49ba-bacf-2b71c515cb92.png">
 
 
 ## Lighthouse 
@@ -44,10 +39,10 @@ I used Lighthouse in Chrome Developer Tools to test each of the pages for:
 - SEO - Search engine optimisation. Is the site optimised for search engine result rankings.
 
 #### Mobile:
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/112728772/204670808-0cd903ce-f77c-4510-b080-ea18e975306a.png">
+  <img width="959" alt="image" src="https://user-images.githubusercontent.com/112728772/204670808-0cd903ce-f77c-4510-b080-ea18e975306a.png">
 
 #### Desktop:
-<img width="955" alt="image" src="https://user-images.githubusercontent.com/112728772/204670868-28a4280f-3e3a-42a4-8be0-b328786b253a.png">
+  <img width="955" alt="image" src="https://user-images.githubusercontent.com/112728772/204670868-28a4280f-3e3a-42a4-8be0-b328786b253a.png">
 
 
 ## Browser Compatibility
@@ -123,10 +118,10 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 ## Outstanding Defects
 - If the user click on the "Edit" button, and "Save" with an empty data or duplicate content, still save with no issues or error message, this issue wasn't fixed immediately as it's the user's choice to sneak behind the checks for main input. They will see if they have an empty entry, or duplicate entry and they did it on purpose.
 - Empty data:
-<img width="847" alt="image" src="https://user-images.githubusercontent.com/112728772/205503004-40e6f356-4721-423a-92d0-6f3b9f1e3e9f.png">
+  <img width="847" alt="image" src="https://user-images.githubusercontent.com/112728772/205503004-40e6f356-4721-423a-92d0-6f3b9f1e3e9f.png">
 
 - Duplicate data:
-<img width="823" alt="image" src="https://user-images.githubusercontent.com/112728772/205503100-fb1501a2-7dc2-4070-8a44-8b719bfab5ca.png">
+  <img width="823" alt="image" src="https://user-images.githubusercontent.com/112728772/205503100-fb1501a2-7dc2-4070-8a44-8b719bfab5ca.png">
 
 
 ## MAIN PAGE (README)
