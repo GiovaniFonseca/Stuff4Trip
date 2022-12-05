@@ -3,10 +3,10 @@
 The Stuff4Trip site has been tested in the following ways -
 
 - [Code Validation](#code-validation)
-    - [W3C HTML Validator](#w3c-html-validator) 
+    - [W3C HTML Validator](#w3c-html-validator)
+    - [W3C HTML Page 404](#w3c-html-page-404) 
     - [W3C CSS Validator](#w3c-css-validator)
     - [Jshint JS Validator ](#jshint-js-validator)
-    - [W3C HTML Page 404](#w3c-html-page-404)
 - [Lighthouse](#lighthouse)
 - [Browser Compatibility](#browser-compatibility)
 - [Manual Testing](#manual-testing)
@@ -22,6 +22,9 @@ The Stuff4Trip site has been tested in the following ways -
 
 <img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054017-c35a45e5-4b3d-4a53-8ecc-a951514e72d5.png">
 
+### W3C HTML Page 404
+<img width="1399" alt="image" src="https://user-images.githubusercontent.com/112728772/205168343-73a609be-67cc-4ea9-be1e-5d47c5d928cc.png">
+
 ### W3C CSS Validator 
 
 <img width="1385" alt="image" src="https://user-images.githubusercontent.com/112728772/204054056-86b9357d-68b0-41a4-853d-b8e36ed72590.png">
@@ -30,8 +33,6 @@ The Stuff4Trip site has been tested in the following ways -
 
 <img width="1235" alt="image" src="https://user-images.githubusercontent.com/112728772/204054198-7f7014c5-b8e2-49ba-bacf-2b71c515cb92.png">
 
-### W3C HTML Page 404
-<img width="1399" alt="image" src="https://user-images.githubusercontent.com/112728772/205168343-73a609be-67cc-4ea9-be1e-5d47c5d928cc.png">
 
 ## Lighthouse 
 
@@ -83,6 +84,13 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
  - [x] Delete: User can delete things & preload knows.
  - [x] Valid entry adds to list.
  - [x] User disables Javascript, is notified they need to turn it on to use the site.
+    * From a Home screen, navigate: Apps icon(Google)Chrome Chrome icon.
+      If unavailable, swipe up from the center of the display then tap Chrome Chrome icon.
+    * Tap the Menu icon (upper right)
+    * Tap Settings.  
+    * From the Advanced section, tap Site settings.
+    * Tap JavaScript.
+    * Tap the JavaScript switch to turn on or turn off.
  - [x] No console errors
  - [x] Looks good on Mobile, Tablet and Desktop 
 
@@ -113,8 +121,13 @@ The site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox
 - ![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205187449-723b846b-a28c-499f-925b-5085c66dfa9f.gif)
 
 ## Outstanding Defects
+### Add error handing to EDIT/SAVE so that user can’t sneak in a duplicate or empty value:
+- If the user click on the "Edit" button, and "Save" with an empty data or duplicate content, still save with no issues or error message, this issue wasn't fixed immediately as it's the user's choice to sneak behind the checks for main input. They will see if they have an empty entry, or duplicate entry and they did it on purpose.
+- Empty data:
+<img width="847" alt="image" src="https://user-images.githubusercontent.com/112728772/205503004-40e6f356-4721-423a-92d0-6f3b9f1e3e9f.png">
 
-- No outstanding defects exist at this time that the developer is aware of.
+- Duplicate data:
+<img width="823" alt="image" src="https://user-images.githubusercontent.com/112728772/205503100-fb1501a2-7dc2-4070-8a44-8b719bfab5ca.png">
 
 
 ## MAIN PAGE (README)

@@ -17,10 +17,9 @@ Giovani Fonseca
 ## **Table of Contents**
 
 1. [UX Development](#ux-development)
+    *[Target Audience](#target-audience)
     * [Project Goal](#project-goal)
-
-    * [Target Audience](#target-audience)
-  
+    * [User Stories](#user-stories)
     * [Design](#design)
         * [Colour Scheme](#colour-scheme)
         * [Typography](#typography)
@@ -39,30 +38,32 @@ Giovani Fonseca
 
 3. [Future Features](#future-features)
         
-4. [Technology Used](#technology-used)  
+3. [Technology Used](#technology-used)  
     * [Language Used](#languages-used)
     * [Tools and Libraries](#tools-and-libraries)
 
-5. [Testing](#testing)
+4. [Testing](#testing)
 
-6. [Deployment](#deployment)  
+5. [Deployment](#deployment)  
   
-7. [Credits](#credits)
+6. [Credits](#credits)
     * [Media](#media)  
 
 - - -
 
 # **Table of Contents**
 ## UX Development
-### Project Goal 
-Show my competence building a responsive website using HTML, CSS and JavaScript.
+### Target Audience 
+* This site aims to help travelers organize a packing list before going on a trip.
 
-The site should disclose and help everyone who wants to have a safe trip, knowing what you are carrying in your backpack and providing a peaceful trip. 
+### Project Goal 
+- Showcase developer's Javascript, HTML & CSS skills
+- Provide a vastly different portifolio from UX of portfolio 1 project 
 
 ## User Stories
-### Target Audience 
-* Travellers
-
+- As a traveler, I want to create a packing list, so I can have peace of mind when going on my trip that I have everything I need in my luggage.
+- As a site user, I want to know why my input is rejected so I can correct errors.
+- As a site user, I don't want to have to reenter data when I come back to the site.
 ## Design
 ### Colour Scheme 
 
@@ -70,7 +71,7 @@ The colours scheme was inspired by the Main Image, with different shades of Pink
 <img width="1435" alt="image" src="https://user-images.githubusercontent.com/112728772/204666615-c04e770a-c363-4671-804e-ead91b2148e1.png">
 
 The colour was design by [Coolors] (https://coolors.co/6d5f63-be9994-f3b2b1-2f2325-1b1819) to generate some color code as inspiration for the website. 
-* The chosen colors make the site more stylish, contrasting colors that match the main image, maintaining a high design standard.
+* The bright colors chosen install a sense of excitement and fun that people feel when they travel, the colors make the site more stylish, contrasting colors that match the main image, maintaining a high design standard.
 
 ### Typography
 
@@ -125,7 +126,7 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
     <img width="810" alt="image" src="https://user-images.githubusercontent.com/112728772/205497865-70afbf58-a61c-4b08-bc31-c5131951f427.png">
 
 ### Preload data
-- Preloading works, thus if the user close the browser and go back to the deployed URL, the data preloads from the local storage.
+- To prevent user irritation when re-visiting the site, entries are stored in local storage and pre-loaded. This will save the user time from re-entering common items if they use the site more than once or want to add to a list, or double check if they have everything packed at a later time. 
 ![stuff4trip_AdobeExpress](https://user-images.githubusercontent.com/112728772/205497958-d3d5848d-2b27-4b31-ad7f-fc1102bf4741.gif)
 
 ### 404 Page
@@ -141,13 +142,13 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 - The site has a Favicon, since the site is about travel stuff I chose a Bag pink Icon to match with the website color.
 
 ## Future Features
-### Add error handing to EDIT/SAVE so that user can’t sneak in a duplicate or empty value:
-- Additional features to be implemented: If the user click on the "Edit" button, and "Save" with an empty data or duplicate content, still save with no issues or error message, so I want to change this to ensure that the user have something in there and then not allow the duplicates to happens.
-- Empty data:
-<img width="847" alt="image" src="https://user-images.githubusercontent.com/112728772/205503004-40e6f356-4721-423a-92d0-6f3b9f1e3e9f.png">
 
-- Duplicate data:
-<img width="823" alt="image" src="https://user-images.githubusercontent.com/112728772/205503100-fb1501a2-7dc2-4070-8a44-8b719bfab5ca.png">
+For future features I would like to add some enhancements that will make my website even better:
+- Allow user to add quantities to items (default with one).
+- Allow user to email list to themselver.
+- allow user to print the list.
+- Allow user a clear all button so if they don't want the pre-populated data, they can delete everything with one button.
+- Use font awesome icons for edit/ delete/ save to give user more room on smaller devices for input entry/items.
 
 ## Technology Used
 
@@ -170,6 +171,7 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### Deployment 
 
+[https://giov3ss.github.io/Stuff4Trip/](https://giov3ss.github.io/Stuff4Trip/)
 The site was deployed to Github pages.
 
 ### Run Locally With GitPod
@@ -178,6 +180,9 @@ The site was deployed to Github pages.
 2. Type Git command: python3 -m http.server
 3. A pop-up message will appear on the right-hand side, where Open Browser should be clicked
 4. A new page opens where the site is available
+
+* You can deploy this locally if you have the chrome gitpod extension installed
+* Just click the green button in github when in chrome browser to start a gitpod instance
 
 ### Deploy to GitHub Pages
 
