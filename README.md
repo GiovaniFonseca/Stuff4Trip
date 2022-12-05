@@ -109,20 +109,20 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### Buttons
 - The user can Adding an item just clicking in the button "Add Stuff".
-    <img width="117" alt="image" src="https://user-images.githubusercontent.com/112728772/205497752-d499859c-0c92-4416-b73e-862e5b244d91.png">
+<img width="117" alt="image" src="https://user-images.githubusercontent.com/112728772/205497752-d499859c-0c92-4416-b73e-862e5b244d91.png">
 
 - The user can Editing an item just clicking in the button "Edit".
-    <img width="75" alt="image" src="https://user-images.githubusercontent.com/112728772/205497769-5b91ebc0-a2c6-497d-a59e-7cf060f00521.png">
+<img width="75" alt="image" src="https://user-images.githubusercontent.com/112728772/205497769-5b91ebc0-a2c6-497d-a59e-7cf060f00521.png">
 
 - The user can Delete an item just clicking in the button "Delete".
-    <img width="104" alt="image" src="https://user-images.githubusercontent.com/112728772/205497785-de85afbe-37b8-4519-9058-5d1139f81162.png">
+<img width="104" alt="image" src="https://user-images.githubusercontent.com/112728772/205497785-de85afbe-37b8-4519-9058-5d1139f81162.png">
 
 ### Error message 
 - An error message appears if the user no provide:
-    - an input text
+    * an input text
     <img width="857" alt="image" src="https://user-images.githubusercontent.com/112728772/205497826-de892791-0b53-4d58-a98d-a47424b92182.png">
 
-    - or put Duplicate input.
+    * or put Duplicate input.
     <img width="810" alt="image" src="https://user-images.githubusercontent.com/112728772/205497865-70afbf58-a61c-4b08-bc31-c5131951f427.png">
 
 ### Preload data
@@ -140,7 +140,7 @@ The wireframes were produced using: [Balsamiq](https://balsamiq.com/).
 
 ### Favicon
 - The site has a Favicon, since the site is about travel stuff I chose a Bag pink Icon to match with the website color.
-    <img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
+<img width="155" alt="image" src="https://user-images.githubusercontent.com/112728772/204063399-a9512b51-3106-4368-8ceb-93ad5f7a788d.png">
 
 ## Future Features
 
