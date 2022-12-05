@@ -170,6 +170,10 @@ For future features I would like to add some enhancements that will make my webs
 - [Browserstack](https://www.browserstack.com/) Provided browser compatibility with real desktop and mobile devices.
 - [Table Generator](https://www.tablesgenerator.com/) Used to make a table of de devices and desktops tested.
 
+### Testing
+
+[testing.md](testing.md) 
+
 ### Deployment 
 
 [https://giov3ss.github.io/Stuff4Trip/](https://giov3ss.github.io/Stuff4Trip/)
@@ -215,10 +219,6 @@ To make a copy or ‘fork’ the repository:
 4. Changed the current working directory to the location you want the cloned directory to be made
 5. Type ‘git clone’ and then paste the URL copied from GitHub
 6. press enter and the local clone will be created 
-
-### Testing
-
-[testing.md](testing.md) 
 
 
 ### Credits
