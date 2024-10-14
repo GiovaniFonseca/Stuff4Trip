@@ -5,7 +5,7 @@ Stuff4Trip It's a site where you can put your things that you want to take with 
 <img width="1281" alt="image" src="https://user-images.githubusercontent.com/112728772/204666471-2a511ad4-15a7-499a-919c-38a608948e87.png">
 
 ## Live Site 
-[https://giov3ss.github.io/Stuff4Trip/](https://giov3ss.github.io/Stuff4Trip/)
+[https://giov3ss.github.io/Stuff4Trip/](https://giovanifonseca.github.io/Stuff4Trip/)
 
 ## Repository
 [https://github.com/Giov3ss/Stuff4Trip](https://github.com/Giov3ss/Stuff4Trip)
